@@ -8,8 +8,6 @@ from typing import Optional # Adicionado para campos opcionais
 # Carrega variáveis de ambiente
 load_dotenv()
 # Configuração do Supabase
-SUPABASE_URL = os.getenv("https://ocooomjivivxncbgxfdy.supabase.co")
-SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jb29vbWppdml2eG5jYmd4ZmR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ0Mzg2OTksImV4cCI6MjA3MDAxNDY5OX0.MhilTKdz_N0W0E2Y-s5BxIlBFQ8cDFs1oksEiKFsutA")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise ValueError(
