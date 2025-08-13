@@ -1,0 +1,8 @@
+2025-08-13 19:45:29,766 - INFO - Method=GET Path=/ Status=404
+2025-08-13 19:45:31,637 - INFO - Method=GET Path=/ Status=404
+2025-08-13 19:45:39,329 - INFO - Method=GET Path=/ Status=404
+2025-08-13 19:47:59,602 - INFO - Method=GET Path=/ Status=404
+2025-08-13 19:47:59,642 - INFO - Method=GET Path=/favicon.ico Status=404
+2025-08-13 20:30:08,597 - INFO - Method=GET Path=/ Status=200
+2025-08-13 20:36:37,454 - INFO - Method=GET Path=/docs Status=200
+2025-08-13 20:36:37,644 - INFO - Method=GET Path=/openapi.json Status=200
